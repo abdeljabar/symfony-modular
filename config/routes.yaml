@@ -1,3 +1,7 @@
-controllers:
-    resource: ../src/Controller/
+core_controllers:
+    resource: ../src/Core/Controller/
+    type: attribute
+
+blog_controllers:
+    resource: ../src/Blog/Controller/
     type: attribute
